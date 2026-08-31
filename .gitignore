@@ -16,17 +16,22 @@ status.json
 chat_memory_*.json
 chat_memory.json
 
+# 运行日志
+*.log
+logs/
+
 # 打包产物/二进制（通常比较大，可按需保留）
-.exe
+*.exe
 build/
 dist/
-.spec
+*.spec
 
 # IDE
 .vscode/
 .idea/
-.swp
-.swo
+*.swp
+*.swo
 
-# 角色资源（图片/视频很多且大，如需开源请自行决定是否上传）
- characters/
+# 角色资源：本项目使用 Git LFS 管理 characters/ 下的大文件（见 .gitattributes）
+# 如果不希望上传角色包、改用网盘分发，取消下面这行的注释即可
+# characters/
