@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# 用户私有配置/运行时数据（不同机器、不同角色会变化）
+config.json
+persona.txt
+status.json
+chat_memory_*.json
+chat_memory.json
+
+# 打包产物/二进制（通常比较大，可按需保留）
+.exe
+build/
+dist/
+.spec
+
+# IDE
+.vscode/
+.idea/
+.swp
+.swo
+
+# 角色资源（图片/视频很多且大，如需开源请自行决定是否上传）
+ characters/
